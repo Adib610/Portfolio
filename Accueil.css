@@ -1,7 +1,20 @@
+@font-face { font-family: Roboto; src: url('fonts/Roboto/Roboto-Thin.ttf'); } 
+@font-face { font-family: RobotoGras; font-weight: bold; src: url('fonts/Roboto/Roboto-Bold.ttf'); } 
+
 body {
     margin: 0;
     margin: 0 !important;
     padding: 0 !important;
+    font-family: Roboto;
+}
+
+
+p {
+   font-family: Roboto;
+}
+
+h2 {
+    font-family: RobotoGras;
 }
 
 .Apropos h2 {
@@ -27,7 +40,7 @@ body {
     position: relative;
     top: 33%;
     text-align: center;
-    color: white;
+    color: #34bcef;
 }
 
 header {
@@ -104,18 +117,23 @@ span {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.hihglight {
+    color: #34bcef;
+    text-decoration: none;
+}
 
 .Apropos {
     text-align: center;
     width: 100vw;
     height: 40vh;
-    background-color: #1892d3;
+    background-color: #41415c;
+    /* background-color: #1892d3; */
 }
 
 .categorie {
     width: 100vw;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .section {
@@ -157,19 +175,24 @@ span {
     border: 0px solid #dadada;
     border-radius: 0px;
     transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+  color: white;
 }
 
 .section li:hover {
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 15px #9ecaed;
-    /* border-radius: 25px; */
 }
 
-/* li:hover img {
-    transition-duration: 0.2s;
-    border-radius: 25px 25px 0 0;
-} */
+li img {
+    border-radius: 20px 20px 0 0;
+}
 /* 
 li:hover img {
     border-radius: 25px 25px 0 0;
@@ -178,6 +201,56 @@ li:hover img {
 
 .section li:hover p {
     color: #34bcef;
+}
+
+.bg-model {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* position: absolute; */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content {
+    height: 700px;
+    width: 1000px;
+    background-color: #222222;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.modal-content iframe {
+   padding-top: 30px;
+}
+
+.modal-content video {
+    padding-top: 30px;
+}
+
+.separateur {
+    width: 70%;
+    height: 1px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.Description {
+    color: white;
+    width: 80%;
+    height: 21%;
+    margin: auto;
+    /* padding-top: 10px; */
+    /* background-color: #1892d3; */
+    /* overflow: scroll; */
 }
 
 .section li p {
