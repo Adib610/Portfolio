@@ -18,12 +18,14 @@ h2 {
 }
 
 .Apropos h2 {
+    padding-top: 15px;
     font-size: 2em;
     margin: 0 !important;
     position: relative;
     top: 10%;
     text-align: center;
     color: white;
+    background: none;
 }
 
 .Apropos p {
@@ -32,6 +34,7 @@ h2 {
     position: relative;
     top: 25%;
     color: white;
+    padding: 25px 0 25px;
 }
 
 .categorie h2 {
@@ -74,7 +77,7 @@ header p {
 .OnePage {
     
     width: 100vw;
-    height: 90vh;
+    height: 97.6vh;
     /* background-color: cornflowerblue; */
 }
 
@@ -125,8 +128,9 @@ span {
 .Apropos {
     text-align: center;
     width: 100vw;
-    height: 40vh;
-    background-color: #41415c;
+    height: auto;
+    /*background-color: #41415c;*/
+    background-color: rgba(0,0,0,0.9);
     /* background-color: #1892d3; */
 }
 
@@ -224,6 +228,7 @@ li:hover img {
     background-color: #222222;
     border-radius: 15px;
     text-align: center;
+    overflow-y: scroll;
 }
 
 .modal-content iframe {
@@ -262,8 +267,12 @@ li:hover img {
 }
 
 img {
+
+}
+
+.Thumbnail {
     width: 100%;
-    height: 60%;
+    height: 70%;
 }
 
 footer {
