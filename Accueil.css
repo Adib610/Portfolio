@@ -251,8 +251,9 @@ li:hover img {
 .Description {
     color: white;
     width: 80%;
-    height: 21%;
+    /*height: 21%;*/
     margin: auto;
+    margin-bottom: 15px;
     /* padding-top: 10px; */
     /* background-color: #1892d3; */
     /* overflow: scroll; */
@@ -275,13 +276,19 @@ img {
     height: 70%;
 }
 
+.DetailImage {
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+}
+
 footer {
     width: 100%;
     height: 200px;
     background-color: #101010;
 }
 
-footer ul {
+footer ul ul{
     margin-block-start: 0 !important;
     padding: 0;
     margin-block-end: 0 !important;
@@ -294,4 +301,41 @@ footer ul {
     flex-direction: column;
     color: white;
     font-size: 1.2em;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10% 0 10%;
+}
+
+.CV {
+    width: 280px;
+    height: 61px;
+    background-color: #222222;
+    margin-top: 50px;
+    border: 0px solid #dadada;
+    border-radius: 0px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.CV a {
+    margin: 0 !important;
+    font-size: 1.3em;
+    position: relative;
+    /* top: 25%; */
+    color: white;
+    padding: 18px 101px 25px 101px;
+}
+
+.CV:hover {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 15px #9ecaed;
+}
+
+.CV:hover a {
+    color: #34bcef;
 }
