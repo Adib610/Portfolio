@@ -29,7 +29,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
     
     document.getElementById('Fenetre1').style.display = 'block';
@@ -52,7 +52,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre2').style.display = 'block';
@@ -75,7 +75,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre3').style.display = 'block';
@@ -98,7 +98,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre4').style.display = 'block';
@@ -121,7 +121,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
     
     document.getElementById('Fenetre5').style.display = 'block';
@@ -144,7 +144,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre6').style.display = 'block';
@@ -167,7 +167,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre7').style.display = 'block';
@@ -190,7 +190,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre8').style.display = 'block';
@@ -213,7 +213,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre9').style.display = 'block';
@@ -238,7 +238,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre10').style.display = 'block';
@@ -261,7 +261,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
     document.getElementById('Fenetre11').style.display = 'block';
@@ -269,28 +269,29 @@ function(){
     document.body.style.overflowY = "hidden";
 });
 
-document.querySelector('#Detail12').addEventListener('click', 
-function(){
-    FermerFenetres();
-    document.querySelector('#Fenetre0').style.display = "none";
-    document.querySelector('#Fenetre1').style.display = "none";
-    document.querySelector('#Fenetre2').style.display = "none";
-    document.querySelector('#Fenetre3').style.display = "none";
-    document.querySelector('#Fenetre4').style.display = "none";
-    document.querySelector('#Fenetre5').style.display = "none";
-    document.querySelector('#Fenetre6').style.display = "none";
-    document.querySelector('#Fenetre7').style.display = "none";
-    document.querySelector('#Fenetre8').style.display = "none";
-    document.querySelector('#Fenetre9').style.display = "none";
-    document.querySelector('#Fenetre10').style.display = "none";
-    document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
-    document.querySelector('#Fenetre13').style.display = "none";
+// document.querySelector('#Detail12').addEventListener('click', 
+// function(){
+//     FermerFenetres();
+//     document.querySelector('#Fenetre0').style.display = "none";
+//     document.querySelector('#Fenetre1').style.display = "none";
+//     document.querySelector('#Fenetre2').style.display = "none";
+//     document.querySelector('#Fenetre3').style.display = "none";
+//     document.querySelector('#Fenetre4').style.display = "none";
+//     document.querySelector('#Fenetre5').style.display = "none";
+//     document.querySelector('#Fenetre6').style.display = "none";
+//     document.querySelector('#Fenetre7').style.display = "none";
+//     document.querySelector('#Fenetre8').style.display = "none";
+//     document.querySelector('#Fenetre9').style.display = "none";
+//     document.querySelector('#Fenetre10').style.display = "none";
+//     document.querySelector('#Fenetre11').style.display = "none";
+//     // document.querySelector('#Fenetre12').style.display = "none";
+//     document.querySelector('#Fenetre13').style.display = "none";
 
-    document.getElementById('Fenetre12').style.display = 'block';
-    document.querySelector('.bg-model').style.display = 'flex';
-    document.body.style.overflowY = "hidden";
-});
+
+//     document.getElementById('Fenetre12').style.display = 'block';
+//     document.querySelector('.bg-model').style.display = 'flex';
+//     document.body.style.overflowY = "hidden";
+// });
 
 document.querySelector('#Detail13').addEventListener('click', 
 function(){
@@ -307,7 +308,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none";
     document.querySelector('#Fenetre13').style.display = "none";
 
 
