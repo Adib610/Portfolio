@@ -23,7 +23,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -54,7 +54,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -84,7 +84,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -114,7 +114,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -144,7 +144,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -174,7 +174,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -234,7 +234,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -246,7 +246,7 @@ function(){
     document.body.style.overflowY = "hidden";
 
     CurrentWindow = document.getElementById('Fenetre7');
-    
+    CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/voCtycIbGm4?";
 });
 
 document.querySelector('#Detail8').addEventListener('click', 
@@ -264,7 +264,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -294,7 +294,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -306,6 +306,7 @@ function(){
     document.body.style.overflowY = "hidden";
 
     CurrentWindow = document.getElementById('Fenetre9');
+    CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/9rBorymxmm4?";
 });
 
 
@@ -325,7 +326,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -355,7 +356,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -385,7 +386,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -413,7 +414,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -444,7 +445,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -475,7 +476,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -506,7 +507,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -536,7 +537,7 @@ function(){
     document.querySelector('#Fenetre9').style.display = "none";
     document.querySelector('#Fenetre10').style.display = "none";
     document.querySelector('#Fenetre11').style.display = "none";
-    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
     document.querySelector('#Fenetre13').style.display = "none";
     document.querySelector('#Fenetre14').style.display = "none";
     document.querySelector('#Fenetre15').style.display = "none";
@@ -590,7 +591,7 @@ window.addEventListener('mouseup', function(event){
             document.getElementById('Fenetre9').style.display = 'none';
             document.getElementById('Fenetre10').style.display = 'none';
             document.getElementById('Fenetre11').style.display = 'none';
-            document.getElementById('Fenetre12').style.display = 'none';
+            // document.getElementById('Fenetre12').style.display = 'none';
             document.getElementById('Fenetre13').style.display = 'none';
             document.getElementById('Fenetre14').style.display = 'none';
             document.getElementById('Fenetre15').style.display = 'none';
@@ -598,7 +599,7 @@ window.addEventListener('mouseup', function(event){
             document.getElementById('Fenetre17').style.display = 'none';
 
             for (var x = 0; x <= videosIframe.length; x++) {
-                if(x != 11){
+                if(x != videosIframe.length){
                     document.getElementsByTagName("iframe")[x].src = "";
                 }
                 
