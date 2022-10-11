@@ -4,13 +4,32 @@ var CurrentWindow = document.querySelector("Fenetre0");
 
 function FermerFenetres(){
     for (let index = 1; index < fenetres.length; index++) {
-        document.querySelector('#Fenetre' + index).style.display = "none";
+        document.querySelector('#Fenetre' + index).style.display = 'none';
     }
 }
 
 document.querySelector('#Detail0').addEventListener('click', 
 function(){
-    FermerFenetres();
+    // FermerFenetres();
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
+    // document.querySelector('#Fenetre6').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
+
     document.getElementById('Fenetre0').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
     document.body.style.overflowY = "hidden";
@@ -23,20 +42,24 @@ function(){
 document.querySelector('#Detail1').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
     
     document.getElementById('Fenetre1').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -49,20 +72,24 @@ function(){
 document.querySelector('#Detail2').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre2').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -75,20 +102,24 @@ function(){
 document.querySelector('#Detail3').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre3').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -101,20 +132,24 @@ function(){
 document.querySelector('#Detail4').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none"; 
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre4').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -127,20 +162,24 @@ function(){
 document.querySelector('#Detail5').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
     
     document.getElementById('Fenetre5').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -150,49 +189,57 @@ function(){
     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/_LcAidsrq78?";
 });
 
-document.querySelector('#Detail6').addEventListener('click', 
-function(){
-    // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
-    // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+// document.querySelector('#Detail6').addEventListener('click', 
+// function(){
+//     // FermerFenetres();
+//     document.querySelector('#Fenetre0').style.display = "none";
+//     document.querySelector('#Fenetre1').style.display = "none";
+//     document.querySelector('#Fenetre2').style.display = "none";
+//     document.querySelector('#Fenetre3').style.display = "none";
+//     document.querySelector('#Fenetre4').style.display = "none";
+//     document.querySelector('#Fenetre5').style.display = "none";
+//     document.querySelector('#Fenetre6').style.display = "none";
+//     document.querySelector('#Fenetre7').style.display = "none";
+//     document.querySelector('#Fenetre8').style.display = "none";
+//     document.querySelector('#Fenetre9').style.display = "none";
+//     document.querySelector('#Fenetre10').style.display = "none";
+//     document.querySelector('#Fenetre11').style.display = "none";
+//     document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+//     document.querySelector('#Fenetre13').style.display = "none";
+//     document.querySelector('#Fenetre14').style.display = "none";
+//     document.querySelector('#Fenetre15').style.display = "none";
+//     document.querySelector('#Fenetre16').style.display = "none";
+//     document.querySelector('#Fenetre17').style.display = "none";
 
-    document.getElementById('Fenetre6').style.display = 'block';
-    document.querySelector('.bg-model').style.display = 'flex';
-    document.body.style.overflowY = "hidden";
+//     document.getElementById('Fenetre6').style.display = 'block';
+//     document.querySelector('.bg-model').style.display = 'flex';
+//     document.body.style.overflowY = "hidden";
 
-    CurrentWindow = document.getElementById('Fenetre6');
-    CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/B2qh610kYKI?";
-});
+//     CurrentWindow = document.getElementById('Fenetre6');
+//     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/B2qh610kYKI?";
+// });
 
 document.querySelector('#Detail7').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre7').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -205,20 +252,24 @@ function(){
 document.querySelector('#Detail8').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre8').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -231,20 +282,24 @@ function(){
 document.querySelector('#Detail9').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre9').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -258,20 +313,24 @@ function(){
 document.querySelector('#Detail10').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre10').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -284,20 +343,24 @@ function(){
 document.querySelector('#Detail11').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre11').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -310,20 +373,24 @@ function(){
 // document.querySelector('#Detail12').addEventListener('click', 
 // function(){
 //     FermerFenetres();
-//     document.querySelector('#Fenetre0').style.display = "none";
-//     document.querySelector('#Fenetre1').style.display = "none";
-//     document.querySelector('#Fenetre2').style.display = "none";
-//     document.querySelector('#Fenetre3').style.display = "none";
-//     document.querySelector('#Fenetre4').style.display = "none";
-//     document.querySelector('#Fenetre5').style.display = "none";
-//     document.querySelector('#Fenetre6').style.display = "none";
-//     document.querySelector('#Fenetre7').style.display = "none";
-//     document.querySelector('#Fenetre8').style.display = "none";
-//     document.querySelector('#Fenetre9').style.display = "none";
-//     document.querySelector('#Fenetre10').style.display = "none";
-//     document.querySelector('#Fenetre11').style.display = "none";
-//     // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-//     document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
+    // document.querySelector('#Fenetre6').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
 
 //     document.getElementById('Fenetre12').style.display = 'block';
@@ -334,20 +401,24 @@ function(){
 document.querySelector('#Detail13').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
 
     document.getElementById('Fenetre13').style.display = 'block';
@@ -361,20 +432,24 @@ function(){
 document.querySelector('#Detail14').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
 
     document.getElementById('Fenetre14').style.display = 'block';
@@ -388,20 +463,24 @@ function(){
 document.querySelector('#Detail15').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
 
     document.getElementById('Fenetre15').style.display = 'block';
@@ -415,21 +494,24 @@ function(){
 document.querySelector('#Detail16').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
-
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
     document.getElementById('Fenetre16').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -442,20 +524,24 @@ function(){
 document.querySelector('#Detail17').addEventListener('click', 
 function(){
     // FermerFenetres();
-    // document.querySelector('#Fenetre0').style.display = "none";
-    // document.querySelector('#Fenetre1').style.display = "none";
-    // document.querySelector('#Fenetre2').style.display = "none";
-    // document.querySelector('#Fenetre3').style.display = "none";
-    // document.querySelector('#Fenetre4').style.display = "none";
-    // document.querySelector('#Fenetre5').style.display = "none";
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
     // document.querySelector('#Fenetre6').style.display = "none";
-    // document.querySelector('#Fenetre7').style.display = "none";
-    // document.querySelector('#Fenetre8').style.display = "none";
-    // document.querySelector('#Fenetre9').style.display = "none";
-    // document.querySelector('#Fenetre10').style.display = "none";
-    // document.querySelector('#Fenetre11').style.display = "none";
-    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    // document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
 
 
     document.getElementById('Fenetre17').style.display = 'block';
@@ -498,7 +584,7 @@ window.addEventListener('mouseup', function(event){
             document.getElementById('Fenetre3').style.display = 'none';
             document.getElementById('Fenetre4').style.display = 'none';
             document.getElementById('Fenetre5').style.display = 'none';
-            document.getElementById('Fenetre6').style.display = 'none';
+            // document.getElementById('Fenetre6').style.display = 'none';
             document.getElementById('Fenetre7').style.display = 'none';
             document.getElementById('Fenetre8').style.display = 'none';
             document.getElementById('Fenetre9').style.display = 'none';
@@ -511,8 +597,8 @@ window.addEventListener('mouseup', function(event){
             document.getElementById('Fenetre16').style.display = 'none';
             document.getElementById('Fenetre17').style.display = 'none';
 
-            for (var x = 0; x < videosIframe.length; x++) {
-                if(x != 12){
+            for (var x = 0; x <= videosIframe.length; x++) {
+                if(x != 11){
                     document.getElementsByTagName("iframe")[x].src = "";
                 }
                 

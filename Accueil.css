@@ -145,7 +145,8 @@ span {
 .section {
     width: 100vw;
     height: auto;
-    background-color: #222222;
+    /*background-color: #222222;*/
+    background-color: rgba(0,0,0,0.9);
     display: flex;
     clear: both;
     content: "";
@@ -225,8 +226,10 @@ li:hover img {
 }
 
 .modal-content {
-    height: 700px;
-    width: 1000px;
+   /* height: 700px;
+    width: 1000px;*/
+    height: 85%;
+    width: 80%;
     background-color: #222222;
     border-radius: 15px;
     text-align: center;
@@ -257,6 +260,7 @@ li:hover img {
     margin: auto;
     margin-bottom: 15px;
     text-align: left;
+    font-size: 1em;
     /* padding-top: 10px; */
     /* background-color: #1892d3; */
     /* overflow: scroll; */
@@ -271,9 +275,7 @@ li:hover img {
     margin-top: 12px;
 }
 
-img {
 
-}
 
 .Thumbnail {
     width: 100%;
@@ -284,6 +286,10 @@ img {
     height: auto;
     width: auto;
     margin-top: 30px;
+}
+
+.DetailImage img {
+
 }
 
 footer {
@@ -332,7 +338,7 @@ footer ul{
     /* top: 25%; */
     color: white;
     /*padding: 18px 101px 25px 101px;*/
-    padding: 20px 80px 3px 38%;
+    padding: 20px 80px 3px 45%;
 }
 
 .CV:hover {
@@ -343,4 +349,25 @@ footer ul{
 
 .CV:hover a {
     color: #34bcef;
+}
+
+@media only screen and (max-width: 600px) {
+  
+
+    .DetailImage img {
+        height: 25vh;
+    }
+
+    iframe {
+        width: 90%;
+    }
+
+    .Description p{
+        font-size: 2em;
+    }
+
+    .Apropos p {
+        font-size: 1.3em;
+    }
+  
 }

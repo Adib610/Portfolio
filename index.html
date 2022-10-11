@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon Portfolio</title>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="Accueil.css">
@@ -180,7 +181,7 @@
 
     <!-- Catégorie de projets -->
     <div class="categorie">
-      <h2>Scénarisation vidéo</h2>
+      <h2>Animations/Scénarisation</h2>
   </div>
   <!-- Portfolio -->
   <div class="section">
@@ -195,26 +196,6 @@
         <div></div>
       </a>
       </li>
-      <li>
-          <a id="Detail6">
-        <img src="img/LeMetro.png" class="Thumbnail" alt="Italian Trulli">
-        <p>Montage Metro</p>
-        
-        <div></div>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-    <!-- Catégorie de projets -->
-  <div class="categorie">
-      <h2>Animations</h2>
-  </div>
-  <!-- Portfolio -->
-  <div class="section">
-  <!-- Liste de projets-->
-    <ul>
-      <!-- projets-->
       <li>
           <a id="Detail7">
         <img src="img/tp1.PNG" class="Thumbnail" alt="Italian Trulli">
@@ -239,11 +220,21 @@
         <div></div>
         </a>
       </li>
+<!--       <li>
+          <a id="Detail6">
+        <img src="img/LeMetro.png" class="Thumbnail" alt="Italian Trulli">
+        <p>Montage Metro</p>
+        
+        <div></div>
+        </a>
+      </li> -->
     </ul>
   </div>
+
+
   <div class="bg-model">
     <!-- <Chronoshift> -->
-    <div id="Fenetre0" class="modal-content">
+    <span id="Fenetre0" class="modal-content">
         <iframe id="Video" width="800" height="400" margin-bottom="50px" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
         </iframe>
 
@@ -267,12 +258,14 @@
         </div>
 
         <div class="DetailImage">
-        <img src="img/Chrono_Puzzle1.gif" alt="Trulli" height="350vh" >
+        <img src="img/Chrono_Puzzle1.gif" alt="Trulli" height="550vh" >
         </div>
 
         <div class="separateur"></div>
         <div class="Description">
-          Voîlà le premier puzzle que j'ai designé et intégré pour le jeu. C'est une salle où le joueur doit se rendre à la porte mais pour l'ouvrir, il doit garder le bouton rouge au sol appuyé. Pour se faire il doit poser un bloc dessus mais lorsque le bouton est activé, la porte s'ouvre mais le chemin vers la porte est descendu. Le joueur doit donc amener la boîte au bouton mais arrêter le temps pendant que le cube est en train de tomber pour avoir le temps de passer le pond et ensuite laisser le cube tomber pour ouvrir la porte.
+          Voilà le premier puzzle que j'ai designé et Programmé pour le jeu. J'ai du programmer une transition de ode caméra pour monter une vue d'ensemble sur la sale et faire en sorte que le boutton change l'état du pond et de la porte lorsqu'il est appuyé.
+          <br>
+          C'est une salle où le joueur doit se rendre à la porte mais pour l'ouvrir, il doit garder le bouton rouge au sol appuyé. Pour se faire il doit poser un bloc dessus mais lorsque le bouton est activé, la porte s'ouvre mais le chemin vers la porte est descendu. Le joueur doit donc amener la boîte au bouton mais arrêter le temps pendant que le cube est en train de tomber pour avoir le temps de passer le pond et ensuite laisser le cube tomber pour ouvrir la porte.
           <br>
           <br>
           C'est un puzzle qui nécessite au joueur d'analyser l'environnement et de comprendre par ses actions, ce qui change lorsqu'il appuit sur le switch donc j'ai implémenté un repositionnement de la caméra pour cadrer toute la salle afin que le joueur puisse faire une corrélation instantannée avec les résultats de ses actions. 
@@ -283,7 +276,7 @@
 
 
         <div class="DetailImage">
-        <img src="img/Chrono_Puzzle2.gif" alt="Trulli" height="350vh" >
+        <img src="img/Chrono_Puzzle2.gif" alt="Trulli" height="550vh" >
         </div>
 
         <div class="separateur"></div>
@@ -293,7 +286,7 @@
 
 
         <div class="DetailImage">
-        <img src="img/Chronoshift_scenareimage.jpg" alt="Trulli" height="550vh" >
+        <img src="img/Chronoshift_scenareimage.jpg" alt="Trulli" height="1050vh" >
         </div>
 
         <div class="separateur"></div>
@@ -302,7 +295,7 @@
         </div>
 
         <!-- <Chronoshift> -->
-    </div>
+    </span>
     <!-- <Rail-O-Vania> -->
     <span id="Fenetre1" class="modal-content">
         <iframe id="Video" width="800" height="400" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
@@ -353,14 +346,14 @@
         </div>
     </span>
     <!-- < Inparfait > -->
-    <span id="Fenetre6" class="modal-content">
+<!--     <span id="Fenetre6" class="modal-content">
         <iframe id="Video" width="800" height="400" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
         </iframe>
         <div class="separateur"></div>
         <div class="Description">
           Montage sur le métro de Montréal que j'ai fait avec David Dias pour un cours de montage vidéo, nous avons tourné dans plusieurs stations du métro Montréal pour trouver des angles de caméra intéressantE et les monter sur Adobe Premier Pro. 
         </div>
-    </span>
+    </span> -->
     <!-- < Animation 1 > -->
     <span id="Fenetre7" class="modal-content">
         <video width="800" id="Video" height="400"  controls >
@@ -377,10 +370,10 @@
         </iframe>
         <div class="separateur"></div>
         <div class="Description">
-          C'est une courte Animation d'intro pour le jeu Rivals of Aether (ce n'est pas mon jeu et je 'ai aucun droit dessus'), j'ai monté cette animation tôt dans ma technique sur Adobe flash.
+          2018 - C'est une courte Animation d'intro pour le jeu Rivals of Aether (ce n'est pas mon jeu et je 'ai aucun droit dessus'), j'ai monté cette animation tôt dans ma technique sur Adobe flash.
         </div>
     </span>
-    <!-- <Animation 2> -->
+    <!-- <Animation 2D> -->
     <span id="Fenetre9" class="modal-content">
         <video id="Video" width="800" height="400"  controls >
         <source src="video/Benchekroun_Adib_Exercise_01.mp4" type="video/mp4"></source>
@@ -390,30 +383,33 @@
           C'est ma première animation sur Adobe After Effects, je l'ai fait pour un cours de montage vidéo sur ce logiciel.
         </div>
     </span>
-    <!-- <Warriors Arena> -->
+    <!-- <Warriors Arena > -->
     <span id="Fenetre10" class="modal-content">
 
         <div class="DetailImage">
-        <img src="img/Warrior_Roster.png" alt="Trulli" height="350vh" >
+        <img src="img/Warrior_Roster.png" alt="Trulli" height="450vh" >
         </div>
 
         <div class="separateur"></div>
         <div class="Description">
           Warriors Arena est un jeu shooter top down PVP fait pour un GameJam de 48 heures fait à l'UQAT. Le jeu a été conçu avec Alain Pham, David Dias et Antoine Turgeon.
-          Voîlà le roster de personnages que j'ai conceptualisé pour ce jeu.
+          Voîlà le roster de personnages et la map que j'ai conceptualisé pour ce jeu.
+          <br>
+          <br>
         </div>
 
         <div class="DetailImage">
-        <img src="img/Warrior_Map.PNG" alt="Trulli" height="350vh" >
+        <img src="img/Warrior_Map.PNG" alt="Trulli" height="650vh" >
         </div>
 
         <div class="separateur"></div>
         <div class="Description">
-          J'ai aussi dessiné l'arène de combat du jeu.
+          
         </div>
 
         <iframe id="Video" width="800" height="400" margin-bottom="50px" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
         </iframe>
+        <br><br>
 
     </span>
     <!-- <Chronoshift> -->
@@ -442,7 +438,7 @@
           J'ai aussi fait des maquettes pour les ennemis. vers le milieu du projet, les choses commençaient à aller vite donc je devait mettre des idées sur papier assez rapidement, c'est pour ça que beaucoup d'éléments de design ont été recyclés et mélangés pour créer des nuances et un langage visuel consistant.
         </div>
     </span>
-    <!-- <sKETCHES> -->
+    <!-- <Animation> -->
     <span id="Fenetre12" class="modal-content">
         <video id="Video" width="800" height="400"  controls >
         <source src="video/Benchekroun_Adib_Exercise_01.mp4" type="video/mp4"></source>
@@ -462,7 +458,7 @@
         </div>
     </span>
         <!-- <Tobor> -->
-    <div id="Fenetre14" class="modal-content">
+    <span id="Fenetre14" class="modal-content">
         <iframe id="Video" width="800" height="400" margin-bottom="50px" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
         </iframe>
 
@@ -485,7 +481,7 @@
         </div>
         <div class="separateur"></div>
         <div class="DetailImage">
-        <img src="img/ToborTreadmill.gif" alt="Trulli" height="350vh" >
+        <img src="img/ToborTreadmill.gif" alt="Trulli" height="500vh" >
         </div>
         <div class="Description">
           <br>
@@ -495,7 +491,7 @@
 
         <div class="separateur"></div>
         <div class="DetailImage">
-        <img src="img/ToborDrone.gif" alt="Trulli" height="350vh" >
+        <img src="img/ToborDrone.gif" alt="Trulli" height="500vh" >
         </div>
         <div class="Description">
           <br>
@@ -504,7 +500,7 @@
 
         <div class="separateur"></div>
         <div class="DetailImage">
-        <img src="img/ToborPlateform.gif" alt="Trulli" height="350vh" >
+        <img src="img/ToborPlateform.gif" alt="Trulli" height="500vh" >
         </div>
 
         
@@ -515,15 +511,15 @@
           <br>
         </div>
         <div class="DetailImage">
-        <img src="img/ToborCredits1.png" alt="Trulli" height="450vh" >
+        <img src="img/ToborCredits1.png" alt="Trulli" height="500vh" >
          <br>
           <br>
         </div>
 
         <!-- <Chronoshift> -->
-    </div>
+    </span>
     <!-- <Ski Project> -->
-    <div id="Fenetre15" class="modal-content">
+    <span id="Fenetre15" class="modal-content">
         <iframe id="Video" width="800" height="400" margin-bottom="50px" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
         </iframe>
 
@@ -543,12 +539,12 @@
           <br>
           <br>
         </div>
-    </div>
+    </span>
         <!-- <Amphibian Rescue> -->
     <span id="Fenetre16" class="modal-content">
 
         <div class="DetailImage">
-        <img src="img/Amphibian Rescue.png" alt="Trulli" height="350vh" >
+        <img src="img/Amphibian Rescue.png" alt="Trulli" height="700vh" >
         </div>
 
         <div class="separateur"></div>
@@ -575,7 +571,7 @@
     <span id="Fenetre17" class="modal-content">
 
         <div class="DetailImage">
-        <img src="img/DarkMatterCrew.png" alt="Trulli" height="350vh" >
+        <img src="img/DarkMatterCrew.png" alt="Trulli" height="650vh" >
         </div>
 
         <div class="separateur"></div>
@@ -620,7 +616,7 @@
     </script>
     <div class="CV">
       <p>
-        <a href="JavaScript:newPopup('Adib_Ben_CV.pdf');" style="cursor: pointer;">Mon CV</a>
+        <a href="JavaScript:newPopup('Adib_Ben_CV.pdf');" style="cursor: pointer;">CV</a>
       </p>
     </div>
   </ul>
