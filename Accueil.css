@@ -17,6 +17,7 @@ h2 {
     font-family: RobotoGras;
 }
 
+
 .Apropos h2 {
     padding-top: 15px;
     font-size: 2em;
@@ -174,9 +175,14 @@ span {
     height:auto;
 }
 
+.project {
+
+}
+
 .section li {
     width: 180px;
-    height: 200px;
+    /*height: 200px;*/
+    height: fit-content;
     background-color: #101010;
     margin: 15px;
     border: 0px solid #dadada;
@@ -279,7 +285,8 @@ li:hover img {
 
 .Thumbnail {
     width: 100%;
-    height: 70%;
+    /*height: 70%;*/
+    height: 9em;
 }
 
 .DetailImage {
@@ -298,19 +305,32 @@ footer {
     background-color: #101010;
 }
 
+
+footer h2 {
+    padding-top: 15px;
+    font-size: 2em;
+    margin: 0 !important;
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: white;
+    background: none;
+}
+
 footer ul ul{
     margin-block-start: 0 !important;
     padding: 0;
     margin-block-end: 0 !important;
     margin: auto;
     padding-top: 48px;
-    padding-bottom: 48px;
+    /*padding-bottom: 48px;*/
     position: relative;
     display: flex;
     width: 70%;
     flex-direction: column;
     color: white;
     font-size: 1.2em;
+    list-style-type: none;
 }
 
 footer ul{
@@ -318,6 +338,46 @@ footer ul{
     flex-direction: row;
     margin: 0 10% 0 10%;
 }
+
+footer li {
+    margin-bottom: 0.2em;
+}
+
+
+.section ul ul {
+    margin-block-start: 0 !important;
+    padding: 0;
+    margin-block-end: 0 !important;
+    margin: auto;
+    margin-left: 1.2em;
+    position: relative;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    color: white;
+    font-size: 1em;
+}
+
+.section ul ul li {
+ background-color: transparent; 
+ margin: 0;
+ margin-bottom: 1.2em;
+ border-color: transparent;
+box-shadow: none;
+}
+
+.section ul ul li:hover {
+    outline: none;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+
+.section ul ul li:hover p {
+    color: transparent !important;
+}
+
 
 .CV {
     width: 280px;
@@ -342,7 +402,7 @@ footer ul{
 }
 
 .CV:hover {
-    outline: none;
+    outline: none ;
     border-color: #9ecaed;
     box-shadow: 0 0 15px #9ecaed;
 }

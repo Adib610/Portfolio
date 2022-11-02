@@ -39,35 +39,35 @@ function(){
     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/5lzq_wxDQ5U?";
 });
 
-document.querySelector('#Detail1').addEventListener('click', 
-function(){
-    // FermerFenetres();
-    document.querySelector('#Fenetre0').style.display = "none";
-    document.querySelector('#Fenetre1').style.display = "none";
-    document.querySelector('#Fenetre2').style.display = "none";
-    document.querySelector('#Fenetre3').style.display = "none";
-    document.querySelector('#Fenetre4').style.display = "none";
-    document.querySelector('#Fenetre5').style.display = "none";
-    // document.querySelector('#Fenetre6').style.display = "none";
-    document.querySelector('#Fenetre7').style.display = "none";
-    document.querySelector('#Fenetre8').style.display = "none";
-    document.querySelector('#Fenetre9').style.display = "none";
-    document.querySelector('#Fenetre10').style.display = "none";
-    document.querySelector('#Fenetre11').style.display = "none";
-    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    document.querySelector('#Fenetre13').style.display = "none";
-    document.querySelector('#Fenetre14').style.display = "none";
-    document.querySelector('#Fenetre15').style.display = "none";
-    document.querySelector('#Fenetre16').style.display = "none";
-    document.querySelector('#Fenetre17').style.display = "none";
+// document.querySelector('#Detail1').addEventListener('click', 
+// function(){
+//     // FermerFenetres();
+//     document.querySelector('#Fenetre0').style.display = "none";
+//     document.querySelector('#Fenetre1').style.display = "none";
+//     document.querySelector('#Fenetre2').style.display = "none";
+//     document.querySelector('#Fenetre3').style.display = "none";
+//     document.querySelector('#Fenetre4').style.display = "none";
+//     document.querySelector('#Fenetre5').style.display = "none";
+//     // document.querySelector('#Fenetre6').style.display = "none";
+//     document.querySelector('#Fenetre7').style.display = "none";
+//     document.querySelector('#Fenetre8').style.display = "none";
+//     document.querySelector('#Fenetre9').style.display = "none";
+//     document.querySelector('#Fenetre10').style.display = "none";
+//     document.querySelector('#Fenetre11').style.display = "none";
+//     // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+//     document.querySelector('#Fenetre13').style.display = "none";
+//     document.querySelector('#Fenetre14').style.display = "none";
+//     document.querySelector('#Fenetre15').style.display = "none";
+//     document.querySelector('#Fenetre16').style.display = "none";
+//     document.querySelector('#Fenetre17').style.display = "none";
     
-    document.getElementById('Fenetre1').style.display = 'block';
-    document.querySelector('.bg-model').style.display = 'flex';
-    document.body.style.overflowY = "hidden";
+//     document.getElementById('Fenetre1').style.display = 'block';
+//     document.querySelector('.bg-model').style.display = 'flex';
+//     document.body.style.overflowY = "hidden";
 
-    CurrentWindow = document.querySelector("#Fenetre1");
-    CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/8EmOgfH3Kls";
-});
+//     CurrentWindow = document.querySelector("#Fenetre1");
+//     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/8EmOgfH3Kls";
+// });
 
 document.querySelector('#Detail2').addEventListener('click', 
 function(){
@@ -129,35 +129,35 @@ function(){
     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/ZXoFm49GuJ0?";
 });
 
-document.querySelector('#Detail4').addEventListener('click', 
-function(){
-    // FermerFenetres();
-    document.querySelector('#Fenetre0').style.display = "none";
-    document.querySelector('#Fenetre1').style.display = "none";
-    document.querySelector('#Fenetre2').style.display = "none";
-    document.querySelector('#Fenetre3').style.display = "none";
-    document.querySelector('#Fenetre4').style.display = "none";
-    document.querySelector('#Fenetre5').style.display = "none";
-    // document.querySelector('#Fenetre6').style.display = "none";
-    document.querySelector('#Fenetre7').style.display = "none";
-    document.querySelector('#Fenetre8').style.display = "none";
-    document.querySelector('#Fenetre9').style.display = "none";
-    document.querySelector('#Fenetre10').style.display = "none";
-    document.querySelector('#Fenetre11').style.display = "none";
-    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    document.querySelector('#Fenetre13').style.display = "none";
-    document.querySelector('#Fenetre14').style.display = "none";
-    document.querySelector('#Fenetre15').style.display = "none";
-    document.querySelector('#Fenetre16').style.display = "none";
-    document.querySelector('#Fenetre17').style.display = "none";
+// document.querySelector('#Detail4').addEventListener('click', 
+// function(){
+//     // FermerFenetres();
+//     document.querySelector('#Fenetre0').style.display = "none";
+//     document.querySelector('#Fenetre1').style.display = "none";
+//     document.querySelector('#Fenetre2').style.display = "none";
+//     document.querySelector('#Fenetre3').style.display = "none";
+//     document.querySelector('#Fenetre4').style.display = "none";
+//     document.querySelector('#Fenetre5').style.display = "none";
+//     // document.querySelector('#Fenetre6').style.display = "none";
+//     document.querySelector('#Fenetre7').style.display = "none";
+//     document.querySelector('#Fenetre8').style.display = "none";
+//     document.querySelector('#Fenetre9').style.display = "none";
+//     document.querySelector('#Fenetre10').style.display = "none";
+//     document.querySelector('#Fenetre11').style.display = "none";
+//     // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+//     document.querySelector('#Fenetre13').style.display = "none";
+//     document.querySelector('#Fenetre14').style.display = "none";
+//     document.querySelector('#Fenetre15').style.display = "none";
+//     document.querySelector('#Fenetre16').style.display = "none";
+//     document.querySelector('#Fenetre17').style.display = "none";
 
-    document.getElementById('Fenetre4').style.display = 'block';
-    document.querySelector('.bg-model').style.display = 'flex';
-    document.body.style.overflowY = "hidden";
+//     document.getElementById('Fenetre4').style.display = 'block';
+//     document.querySelector('.bg-model').style.display = 'flex';
+//     document.body.style.overflowY = "hidden";
 
-    CurrentWindow = document.getElementById('Fenetre4');
-    CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/CaIymdQ6wag?";
-});
+//     CurrentWindow = document.getElementById('Fenetre4');
+//     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/CaIymdQ6wag?";
+// });
 
 document.querySelector('#Detail5').addEventListener('click', 
 function(){
@@ -492,66 +492,66 @@ function(){
     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
 });
 
-document.querySelector('#Detail16').addEventListener('click', 
-function(){
-    // FermerFenetres();
-    document.querySelector('#Fenetre0').style.display = "none";
-    document.querySelector('#Fenetre1').style.display = "none";
-    document.querySelector('#Fenetre2').style.display = "none";
-    document.querySelector('#Fenetre3').style.display = "none";
-    document.querySelector('#Fenetre4').style.display = "none";
-    document.querySelector('#Fenetre5').style.display = "none";
-    // document.querySelector('#Fenetre6').style.display = "none";
-    document.querySelector('#Fenetre7').style.display = "none";
-    document.querySelector('#Fenetre8').style.display = "none";
-    document.querySelector('#Fenetre9').style.display = "none";
-    document.querySelector('#Fenetre10').style.display = "none";
-    document.querySelector('#Fenetre11').style.display = "none";
-    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    document.querySelector('#Fenetre13').style.display = "none";
-    document.querySelector('#Fenetre14').style.display = "none";
-    document.querySelector('#Fenetre15').style.display = "none";
-    document.querySelector('#Fenetre16').style.display = "none";
-    document.querySelector('#Fenetre17').style.display = "none";
+// document.querySelector('#Detail16').addEventListener('click', 
+// function(){
+//     // FermerFenetres();
+//     document.querySelector('#Fenetre0').style.display = "none";
+//     document.querySelector('#Fenetre1').style.display = "none";
+//     document.querySelector('#Fenetre2').style.display = "none";
+//     document.querySelector('#Fenetre3').style.display = "none";
+//     document.querySelector('#Fenetre4').style.display = "none";
+//     document.querySelector('#Fenetre5').style.display = "none";
+//     // document.querySelector('#Fenetre6').style.display = "none";
+//     document.querySelector('#Fenetre7').style.display = "none";
+//     document.querySelector('#Fenetre8').style.display = "none";
+//     document.querySelector('#Fenetre9').style.display = "none";
+//     document.querySelector('#Fenetre10').style.display = "none";
+//     document.querySelector('#Fenetre11').style.display = "none";
+//     // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+//     document.querySelector('#Fenetre13').style.display = "none";
+//     document.querySelector('#Fenetre14').style.display = "none";
+//     document.querySelector('#Fenetre15').style.display = "none";
+//     document.querySelector('#Fenetre16').style.display = "none";
+//     document.querySelector('#Fenetre17').style.display = "none";
 
-    document.getElementById('Fenetre16').style.display = 'block';
-    document.querySelector('.bg-model').style.display = 'flex';
-    document.body.style.overflowY = "hidden";
+//     document.getElementById('Fenetre16').style.display = 'block';
+//     document.querySelector('.bg-model').style.display = 'flex';
+//     document.body.style.overflowY = "hidden";
 
-    CurrentWindow = document.getElementById('Fenetre16');
-    //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
-});
+//     CurrentWindow = document.getElementById('Fenetre16');
+//     //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+// });
 
-document.querySelector('#Detail17').addEventListener('click', 
-function(){
-    // FermerFenetres();
-    document.querySelector('#Fenetre0').style.display = "none";
-    document.querySelector('#Fenetre1').style.display = "none";
-    document.querySelector('#Fenetre2').style.display = "none";
-    document.querySelector('#Fenetre3').style.display = "none";
-    document.querySelector('#Fenetre4').style.display = "none";
-    document.querySelector('#Fenetre5').style.display = "none";
-    // document.querySelector('#Fenetre6').style.display = "none";
-    document.querySelector('#Fenetre7').style.display = "none";
-    document.querySelector('#Fenetre8').style.display = "none";
-    document.querySelector('#Fenetre9').style.display = "none";
-    document.querySelector('#Fenetre10').style.display = "none";
-    document.querySelector('#Fenetre11').style.display = "none";
-    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    document.querySelector('#Fenetre13').style.display = "none";
-    document.querySelector('#Fenetre14').style.display = "none";
-    document.querySelector('#Fenetre15').style.display = "none";
-    document.querySelector('#Fenetre16').style.display = "none";
-    document.querySelector('#Fenetre17').style.display = "none";
+// document.querySelector('#Detail17').addEventListener('click', 
+// function(){
+//     // FermerFenetres();
+//     document.querySelector('#Fenetre0').style.display = "none";
+//     document.querySelector('#Fenetre1').style.display = "none";
+//     document.querySelector('#Fenetre2').style.display = "none";
+//     document.querySelector('#Fenetre3').style.display = "none";
+//     document.querySelector('#Fenetre4').style.display = "none";
+//     document.querySelector('#Fenetre5').style.display = "none";
+//     // document.querySelector('#Fenetre6').style.display = "none";
+//     document.querySelector('#Fenetre7').style.display = "none";
+//     document.querySelector('#Fenetre8').style.display = "none";
+//     document.querySelector('#Fenetre9').style.display = "none";
+//     document.querySelector('#Fenetre10').style.display = "none";
+//     document.querySelector('#Fenetre11').style.display = "none";
+//     // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+//     document.querySelector('#Fenetre13').style.display = "none";
+//     document.querySelector('#Fenetre14').style.display = "none";
+//     document.querySelector('#Fenetre15').style.display = "none";
+//     document.querySelector('#Fenetre16').style.display = "none";
+//     document.querySelector('#Fenetre17').style.display = "none";
 
 
-    document.getElementById('Fenetre17').style.display = 'block';
-    document.querySelector('.bg-model').style.display = 'flex';
-    document.body.style.overflowY = "hidden";
+//     document.getElementById('Fenetre17').style.display = 'block';
+//     document.querySelector('.bg-model').style.display = 'flex';
+//     document.body.style.overflowY = "hidden";
 
-    CurrentWindow = document.getElementById('Fenetre17');
-    //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
-});
+//     CurrentWindow = document.getElementById('Fenetre17');
+//     //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+// });
 
 // document.querySelector('.bg-model').addEventListener('click', 
 // function(){
