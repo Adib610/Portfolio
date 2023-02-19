@@ -29,6 +29,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre0').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -90,6 +91,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre2').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -120,6 +122,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre3').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -180,6 +183,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
     
     document.getElementById('Fenetre5').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -240,6 +244,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre7').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -270,6 +275,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre8').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -300,6 +306,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre9').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -332,6 +339,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre10').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -362,6 +370,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
     document.getElementById('Fenetre11').style.display = 'block';
     document.querySelector('.bg-model').style.display = 'flex';
@@ -374,24 +383,24 @@ function(){
 // document.querySelector('#Detail12').addEventListener('click', 
 // function(){
 //     FermerFenetres();
-    document.querySelector('#Fenetre0').style.display = "none";
-    document.querySelector('#Fenetre1').style.display = "none";
-    document.querySelector('#Fenetre2').style.display = "none";
-    document.querySelector('#Fenetre3').style.display = "none";
-    document.querySelector('#Fenetre4').style.display = "none";
-    document.querySelector('#Fenetre5').style.display = "none";
-    // document.querySelector('#Fenetre6').style.display = "none";
-    document.querySelector('#Fenetre7').style.display = "none";
-    document.querySelector('#Fenetre8').style.display = "none";
-    document.querySelector('#Fenetre9').style.display = "none";
-    document.querySelector('#Fenetre10').style.display = "none";
-    document.querySelector('#Fenetre11').style.display = "none";
-    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-    document.querySelector('#Fenetre13').style.display = "none";
-    document.querySelector('#Fenetre14').style.display = "none";
-    document.querySelector('#Fenetre15').style.display = "none";
-    document.querySelector('#Fenetre16').style.display = "none";
-    document.querySelector('#Fenetre17').style.display = "none";
+    // document.querySelector('#Fenetre0').style.display = "none";
+    // document.querySelector('#Fenetre1').style.display = "none";
+    // document.querySelector('#Fenetre2').style.display = "none";
+    // document.querySelector('#Fenetre3').style.display = "none";
+    // document.querySelector('#Fenetre4').style.display = "none";
+    // document.querySelector('#Fenetre5').style.display = "none";
+    // // document.querySelector('#Fenetre6').style.display = "none";
+    // document.querySelector('#Fenetre7').style.display = "none";
+    // document.querySelector('#Fenetre8').style.display = "none";
+    // document.querySelector('#Fenetre9').style.display = "none";
+    // document.querySelector('#Fenetre10').style.display = "none";
+    // document.querySelector('#Fenetre11').style.display = "none";
+    // // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    // document.querySelector('#Fenetre13').style.display = "none";
+    // document.querySelector('#Fenetre14').style.display = "none";
+    // document.querySelector('#Fenetre15').style.display = "none";
+    // document.querySelector('#Fenetre16').style.display = "none";
+    // document.querySelector('#Fenetre17').style.display = "none";
 
 
 //     document.getElementById('Fenetre12').style.display = 'block';
@@ -420,6 +429,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
 
     document.getElementById('Fenetre13').style.display = 'block';
@@ -451,6 +461,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
 
     document.getElementById('Fenetre14').style.display = 'block';
@@ -482,6 +493,7 @@ function(){
     document.querySelector('#Fenetre15').style.display = "none";
     document.querySelector('#Fenetre16').style.display = "none";
     document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
 
     document.getElementById('Fenetre15').style.display = 'block';
@@ -492,7 +504,70 @@ function(){
     CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
 });
 
-// document.querySelector('#Detail16').addEventListener('click', 
+document.querySelector('#Detail16').addEventListener('click', 
+function(){
+    // FermerFenetres();
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
+    // document.querySelector('#Fenetre6').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
+
+    document.getElementById('Fenetre16').style.display = 'block';
+    document.querySelector('.bg-model').style.display = 'flex';
+    document.body.style.overflowY = "hidden";
+
+    CurrentWindow = document.getElementById('Fenetre16');
+    //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+});
+
+document.querySelector('#Detail17').addEventListener('click', 
+function(){
+    // FermerFenetres();
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
+    // document.querySelector('#Fenetre6').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
+
+
+    document.getElementById('Fenetre17').style.display = 'block';
+    document.querySelector('.bg-model').style.display = 'flex';
+    document.body.style.overflowY = "hidden";
+
+    CurrentWindow = document.getElementById('Fenetre17');
+    //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+});
+
+// document.querySelector('#Detail18').addEventListener('click', 
 // function(){
 //     // FermerFenetres();
 //     document.querySelector('#Fenetre0').style.display = "none";
@@ -513,44 +588,15 @@ function(){
 //     document.querySelector('#Fenetre15').style.display = "none";
 //     document.querySelector('#Fenetre16').style.display = "none";
 //     document.querySelector('#Fenetre17').style.display = "none";
+//     document.querySelector('#Fenetre18').style.display = "none";
 
-//     document.getElementById('Fenetre16').style.display = 'block';
+
+//     document.getElementById('Fenetre18').style.display = 'block';
 //     document.querySelector('.bg-model').style.display = 'flex';
 //     document.body.style.overflowY = "hidden";
 
-//     CurrentWindow = document.getElementById('Fenetre16');
-//     //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
-// });
-
-// document.querySelector('#Detail17').addEventListener('click', 
-// function(){
-//     // FermerFenetres();
-//     document.querySelector('#Fenetre0').style.display = "none";
-//     document.querySelector('#Fenetre1').style.display = "none";
-//     document.querySelector('#Fenetre2').style.display = "none";
-//     document.querySelector('#Fenetre3').style.display = "none";
-//     document.querySelector('#Fenetre4').style.display = "none";
-//     document.querySelector('#Fenetre5').style.display = "none";
-//     // document.querySelector('#Fenetre6').style.display = "none";
-//     document.querySelector('#Fenetre7').style.display = "none";
-//     document.querySelector('#Fenetre8').style.display = "none";
-//     document.querySelector('#Fenetre9').style.display = "none";
-//     document.querySelector('#Fenetre10').style.display = "none";
-//     document.querySelector('#Fenetre11').style.display = "none";
-//     // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-//     document.querySelector('#Fenetre13').style.display = "none";
-//     document.querySelector('#Fenetre14').style.display = "none";
-//     document.querySelector('#Fenetre15').style.display = "none";
-//     document.querySelector('#Fenetre16').style.display = "none";
-//     document.querySelector('#Fenetre17').style.display = "none";
-
-
-//     document.getElementById('Fenetre17').style.display = 'block';
-//     document.querySelector('.bg-model').style.display = 'flex';
-//     document.body.style.overflowY = "hidden";
-
-//     CurrentWindow = document.getElementById('Fenetre17');
-//     //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+//     CurrentWindow = document.getElementById('Fenetre18');
+//     // CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
 // });
 
 // document.querySelector('.bg-model').addEventListener('click', 
@@ -567,7 +613,7 @@ function(){
 // ////////////////////////////////////////////////////////////
 
 
-var FenetreArray = ['Fenetre0','Fenetre1','Fenetre2','Fenetre3','Fenetre4','Fenetre5','Fenetre6','Fenetre7','Fenetre8','Fenetre9','Fenetre10','Fenetre11','Fenetre12','Fenetre13'];
+var FenetreArray = ['Fenetre0','Fenetre1','Fenetre2','Fenetre3','Fenetre4','Fenetre5','Fenetre6','Fenetre7','Fenetre8','Fenetre9','Fenetre10','Fenetre11','Fenetre12','Fenetre13','Fenetre18'];
 var videosIframe = document.getElementsByTagName("iframe");
 
 window.addEventListener('mouseup', function(event){
@@ -597,6 +643,7 @@ window.addEventListener('mouseup', function(event){
             document.getElementById('Fenetre15').style.display = 'none';
             document.getElementById('Fenetre16').style.display = 'none';
             document.getElementById('Fenetre17').style.display = 'none';
+            // document.getElementById('Fenetre18').style.display = 'none';
 
             for (var x = 0; x <= videosIframe.length; x++) {
                 if(x != videosIframe.length){
