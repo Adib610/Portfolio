@@ -567,37 +567,37 @@ function(){
     //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
 });
 
-// document.querySelector('#Detail18').addEventListener('click', 
-// function(){
-//     // FermerFenetres();
-//     document.querySelector('#Fenetre0').style.display = "none";
-//     document.querySelector('#Fenetre1').style.display = "none";
-//     document.querySelector('#Fenetre2').style.display = "none";
-//     document.querySelector('#Fenetre3').style.display = "none";
-//     document.querySelector('#Fenetre4').style.display = "none";
-//     document.querySelector('#Fenetre5').style.display = "none";
-//     // document.querySelector('#Fenetre6').style.display = "none";
-//     document.querySelector('#Fenetre7').style.display = "none";
-//     document.querySelector('#Fenetre8').style.display = "none";
-//     document.querySelector('#Fenetre9').style.display = "none";
-//     document.querySelector('#Fenetre10').style.display = "none";
-//     document.querySelector('#Fenetre11').style.display = "none";
-//     // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
-//     document.querySelector('#Fenetre13').style.display = "none";
-//     document.querySelector('#Fenetre14').style.display = "none";
-//     document.querySelector('#Fenetre15').style.display = "none";
-//     document.querySelector('#Fenetre16').style.display = "none";
-//     document.querySelector('#Fenetre17').style.display = "none";
-//     document.querySelector('#Fenetre18').style.display = "none";
+document.querySelector('#Detail18').addEventListener('click', 
+function(){
+    // FermerFenetres();
+    document.querySelector('#Fenetre0').style.display = "none";
+    document.querySelector('#Fenetre1').style.display = "none";
+    document.querySelector('#Fenetre2').style.display = "none";
+    document.querySelector('#Fenetre3').style.display = "none";
+    document.querySelector('#Fenetre4').style.display = "none";
+    document.querySelector('#Fenetre5').style.display = "none";
+    // document.querySelector('#Fenetre6').style.display = "none";
+    document.querySelector('#Fenetre7').style.display = "none";
+    document.querySelector('#Fenetre8').style.display = "none";
+    document.querySelector('#Fenetre9').style.display = "none";
+    document.querySelector('#Fenetre10').style.display = "none";
+    document.querySelector('#Fenetre11').style.display = "none";
+    // document.querySelector('#Fenetre12').style.display = "none"; // Garde celui là en Commentaire !!
+    document.querySelector('#Fenetre13').style.display = "none";
+    document.querySelector('#Fenetre14').style.display = "none";
+    document.querySelector('#Fenetre15').style.display = "none";
+    document.querySelector('#Fenetre16').style.display = "none";
+    document.querySelector('#Fenetre17').style.display = "none";
+    document.querySelector('#Fenetre18').style.display = "none";
 
 
-//     document.getElementById('Fenetre18').style.display = 'block';
-//     document.querySelector('.bg-model').style.display = 'flex';
-//     document.body.style.overflowY = "hidden";
+    document.getElementById('Fenetre18').style.display = 'block';
+    document.querySelector('.bg-model').style.display = 'flex';
+    document.body.style.overflowY = "hidden";
 
-//     CurrentWindow = document.getElementById('Fenetre18');
-//     // CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
-// });
+    CurrentWindow = document.getElementById('Fenetre18');
+    // CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+});
 
 // document.querySelector('.bg-model').addEventListener('click', 
 // function(){
@@ -643,7 +643,7 @@ window.addEventListener('mouseup', function(event){
             document.getElementById('Fenetre15').style.display = 'none';
             document.getElementById('Fenetre16').style.display = 'none';
             document.getElementById('Fenetre17').style.display = 'none';
-            // document.getElementById('Fenetre18').style.display = 'none';
+            document.getElementById('Fenetre18').style.display = 'none';
 
             for (var x = 0; x <= videosIframe.length; x++) {
                 if(x != videosIframe.length){

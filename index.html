@@ -42,7 +42,7 @@
   <!-- Liste de projets-->
     <ul>
       <!-- projets-->
-<!--         <li>
+        <li>
         <a id="Detail18" >
         <img src="img/ObscuraThumbnail.JPG" class="Thumbnail" alt="Italian Trulli" >
         <p>The Obscura Experiment</p>
@@ -54,7 +54,7 @@
     
         <div></div>
       </a>
-      </li> -->
+      </li>
 
       <li>
         <a id="Detail0" >
@@ -423,14 +423,11 @@
           <br>
           <br>
         </div>
-
         <div class="DetailImage">
         <img src="img/Warrior_Map.PNG" alt="Trulli" height="650vh" >
         </div>
-
         <div class="separateur"></div>
         <div class="Description">
-          
         </div>
 
         <iframe id="Video" width="800" height="400" margin-bottom="50px" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
@@ -454,7 +451,6 @@
           Geoffroi Henquin<br>
 
         </div>
-
                 <div class="DetailImage">
         <img src="img/EnnemiSheet.jpg" alt="Trulli" height="450vh" >
         </div>
@@ -631,24 +627,255 @@
 
         <div class="separateur"></div>
         <div class="Description">
-          Page Steam : <a href="https://store.steampowered.com/app/2290480/The_Obscura_Experiment/"> https://store.steampowered.com/app/2290480/The_Obscura_Experiment/</a><br><br>
+            Page Steam : <a href="https://store.steampowered.com/app/2290480/The_Obscura_Experiment/"> https://store.steampowered.com/app/2290480/The_Obscura_Experiment/</a><br><br>
 
-          The Obscura Experiment est un projet de finnisant UQAT qui devrait être publié sur Steam le 7 Mars. C'est un jeu d'horreur sci-fi qui prend place dans un vaissau où une expérience scientifique a tourné au mal. L'équipage a été anéanti par une anomalie à la recherche d'énergie et le joueur doit maintenant utiliser tous les outils à sa disposition pour survivre.
-          <br>
-          <br>
-          <div class="separateur" style="width: 100%;"></div>
-         
-          <p style="font-size: 1.5em; font-weight: Bold;">Mes tâches</p>
-          <br>
-          J'ai codé le UI dynamique du centre de contrôle, la minimap et le systême de caméras de surveillance. Pour ça, j'ai du programer un custom widget qui génère un layout du niveau indiquant la position du joueur et des différents éléments de la map puis rendre le tout interactible pour laisser le joueur sélectionner les différentes caméras du niveau.
-           <br>
-           <br>
+            The Obscura Experiment est un projet de finnisant UQAT qui devrait être publié sur Steam le 7 Mars. C'est un jeu d'horreur sci-fi qui prend place dans un vaissau où une expérience scientifique a tourné au mal. L'équipage a été anéanti par une anomalie à la recherche d'énergie et le joueur doit maintenant utiliser tous les outils à sa disposition pour survivre.
+            <br>
+            <br>
+            <div class="separateur" style="width: 100%;"></div>
+           
+            <p style="font-size: 2em; font-weight: Bold;">Mes tâches</p>
+            <br>
+            J'ai codé le UI dynamique du centre de contrôle, la minimap et le systême de caméras de surveillance. Pour ça, j'ai du programer un custom widget qui génère un layout du niveau indiquant la position du joueur et des différents éléments de la map puis rendre le tout interactible pour laisser le joueur sélectionner les différentes caméras du niveau.
+             <br>
+             <br>
         </div>
         <div class="DetailImage">
         <img src="img/TabletDemo.gif" alt="Trulli" height="500vh" >
         </div>
         <div class="Description">
+            <br>
+            <br>
+             La Minimap n'est pas pré-déssinée, elle est vide au départ et prend la forme du niveau selon le layout des murs, au départ le jeu allait avoir des niveaux procéduraux donc j'ai du programmer cette minimap pour être dynamique et capable de se redessiné selon la forme actuel des murs du niveau.
+            <br>
+            <br>
+            <div class="separateur" style="width: 100%;"></div>
         </div>
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+            <p style="font-size: 2em; font-weight: Bold;">Mon Processus</p>
+            <br>
+            Pour afficher la minimap, j'ai utilisé un custom widget avec un border dans lequel j'affiche des images en forme de lignes qui réplique la longueur, rotation et position des murs du niveau. Pour ce faire, j'ai regrouppé les murs par leurs tags, je compare leurs position en X et Y pour définir les extremités du niveau. 
+            Ensuite, une boucle foreach cycle à travers tous les murs pour construire une image qui match la taille, rotation et position du mur, la position et taille du murs dans le niveau sont converti en unités de widget pour être affichés dans le border. 
+            Les bouttons de caméra sont affichés de la même façon, mais au lieu de construire une image, j'ai fait un custom widget qui affiche un boutton dans lequel une référence à la caméra d'une salle est appelé lorsqu'on appuis sur le boutton.
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 1</p>
+             <br>
+             <br>
+             Je crée un Border carré qui vas contenir la minimap, les images qui seront crées pour représenter les murs seront construits dans le widget et ensuite parentées à ce Border et repositionnées à un offset approprié.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/0Designer.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 2</p>
+             <br>
+             <br>
+             J'ajoute toutes les références de portes et de murs avec le tag "Wall" dans un array.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/1HarvestWalls.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 3</p>
+             <br>
+             <br>
+             Je compare ensuite les positions X et Y de tous les murs pour avoir les variables des extremités du niveau.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/2DefineExtremeties.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 4</p>
+             <br>
+             <br>
+             Les extrémités du niveau permettent alors de définir le centre et l'échelle du niveau l'aide de cette formule.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/3SetScaleAndCenter.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 5</p>
+             <br>
+             <br>
+             Le array contenant les références aux murs du niveau est ensuite envoyé dans une fonction qui vas traité l'affichage de chaque mur selon leurs tags.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/4DisplayWalls.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 6
+             </p>
+             <br>
+             <br>
+             À l'interieur de la fonction, une boucle foreach prend chaque référence du array et compare son tag pour l'envoyer dans une fonction qui construit une image selon la rotation, la longueur et l'Offset du mur en question. Ces paramètres dépendent du tag assigné au mur, j'aurrais tiré les murs selon leurs nom si Unreal prennait en compte le nom des objets lors d'un Build.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/5DisplayWallsZoomedOut.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 7
+             </p>
+             <br>
+             <br>
+             J'envois les informations de la référence du mur à une fonction qui vas enfin l'afficher sur le widget.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/6DisplayWallZoomedIn.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 8</p>
+             <br>
+             <br>
+             Voilà la façon dont les propriétés d'un mur sont passés à la fonction qui l'affichera sur le widget. Je prend la position du mur et l'ajoute à son offset, je fait de même pour sa rotation puis je multiplie sa longuer par son échelle (les assets de murs diffèrent en longuer mais leurs scale affichent toujours "1" donc je prend la taille de base de 400 et je la multiplie par 0.5 (World Scale) s'il s'agit d'un mur d'une longueur de 200 par exemple).
+             J'ajoute ensuite le deuxième tag du mur, le deuxième tag indique si le mur appartient à une salle contenant une caméra (lorsqu'une camera de sécurité est sélectionnée, les murs de la salle deviennent jaune sur la minimap, pour que ça marche, j'ai fait en sorte que lorsqu'un mur est dans le collider volume d'une salle, la salle applique un tag à son nom sur ce mur, lorsque l'image de ce mur serra construite, selon son tag, on ajoutera cette image au array d'images référencés par la salle lorsqu'elle s'allume).
+
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/7Displayspecificwall.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 9</p>
+             <br>
+             <br>
+             Dans la fonction qui crée les images, je construit une image dans le widget et je passe la position du mur par une formule qui adapte la position du mur dans le niveau en décalage proportionnel au Widget, ce vector de décalage en pixel est ensuite approprié au "Render Translation" de l'image.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/8CreateImagePosition.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 10</p>
+             <br>
+             <br>
+             Voilà la formule par laquel j'ai fait passé la position du mur dans le niveau pour en faire un vecteur de position proportionnel au Border de mon widget.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/8WorldToMapPosition.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 11</p>
+             <br>
+             <br>
+             Maintenant pour faire en sorte que la longueur de l'image soit proportionnel à la longueur du mur qu'elle représente, je la passe par une autre fontion formule qui adapte la longueur d'unité du mur (qui varie généralement de 50 à 400 unités) en longueur d'image approprié pour l'échelle de la map sur le Border. 
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/9CreateImageScale.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 12</p>
+             <br>
+             <br>
+             Voilà à quoi ressemble la formule. Le "Scale" est la variable qu'on a définit à l'étape 4 et le multiplicateur 1240 a été trouvé en éssait erreur.
+             Pour le trouver, j'ai juste mit deux murs de même longueur à côté de l'autre dans un niveaux vide et j'ai augmenté la valeur de ce multiplicateur jusqu'à ce que je vois dans la minimap généré que les deux murs se touchent comme ils le font dans le niveau, avec ça, j'étais sure que le multiplicateur mettait bien les images de murs à échelle.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/10WorldScaletoMapScale.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 13</p>
+             <br>
+             <br>
+             Ensuite j'e fait la même chose que j'ai fait pour les murs mais pour les bouttons de caméra. Je détecte les salles avec des caméra dans le niveau puis dans un foreach,
+             je construit un custom widget button pour eux.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/11Generateroombuttons.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+<!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
+        <div class="Description">
+             <br>
+             <br>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 14</p>
+             <br>
+             <br>
+             Voilà à quoi le tout ressemble, assez similaire à la création des murs, c'est juste que dans le cas des bouttons, ce sont des custom widget que j'ai créée et dans lesquels il y a un blueprint qui indique le ce que le boutton doit faire lorsqu'il est sélectionner. En somme, ils affichent le "Feed" de leurs caméra de surveillance lorsqu'ils sont sélectionné.
+             <br>
+             <br>
+        </div>
+             <div class="DetailImage">
+             <img src="img/ObscuraScreen/12GenerateRoombuttonFunction.png" alt="Trulli" height="500vh" >
+             </div>
+<!------------- ------End Of step ------------------------ ------E-- ------E -->
+             <br>
+             <br>  
+             <br>
+
     </span>
   </div>
 
