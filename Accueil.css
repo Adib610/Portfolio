@@ -17,28 +17,58 @@ h2 {
     font-family: RobotoGras;
 }
 
+.OnePage {
+    
+    width: 100vw;
+    height: 97.6vh;
+    /* background-color: cornflowerblue; */
+}
+
+.OnePage h2 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    position: relative;
+    z-index: 1;
+    margin-top: 15%;
+
+    margin-left: 8em;
+}
+
+.Apropos img {
+    margin-top: 50px;
+    width: 300px;
+}
 
 .Apropos h2 {
     padding-top: 15px;
-    font-size: 2em;
+    font-size: 3em;
     margin: 0 !important;
     position: relative;
-    top: 10%;
+    top: 5%;
     text-align: center;
     color: white;
     background: none;
 }
 
-.Apropos p {
-    margin: 0 !important;
-    font-size: 1.3em;
-    position: relative;
-    top: 25%;
-    color: white;
+.Apropos p:nth-child(1) {
     width: 60%;
+    margin: 0 !important;
+    position: relative;
+}
+
+.Apropos p {
+    margin: auto;
+    margin-top: 60px;
+    font-size: 1.3em;
+    top: 5%;
+    color: white;
+    width: 80%;
     left: 19%;
     padding: 25px 0 25px;
 }
+
+
 
 .categorie h2 {
     font-size: 2.4em;
@@ -77,21 +107,7 @@ header p {
 
 }
 
-.OnePage {
-    
-    width: 100vw;
-    height: 97.6vh;
-    /* background-color: cornflowerblue; */
-}
 
-.OnePage h2 {
-    text-align: center;
-    color: white;
-    font-size: 4em;
-    position: relative;
-    z-index: 1;
-    margin-top: 15%;
-}
 
 .blue h2{
     text-align: center;
@@ -119,13 +135,22 @@ span {
     z-index: -1;
     position: absolute;
     width: 100vw;
-    height: 100%;
+    height: 99.5%;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hihglight {
     color: #34bcef;
     text-decoration: none;
+}
+
+.Apropos:first-of-type {
+    text-align: center;
+    width: 40vw;
+    height: 100%;
+    /*background-color: #41415c;*/
+    background-color: rgba(0,0,0,0.9);
+    /* background-color: #1892d3; */
 }
 
 .Apropos {
@@ -190,6 +215,7 @@ span {
     transition-duration: 0.2s;
     cursor: pointer;
     border-radius: 20px;
+    position: relative;
 }
 
 a {
@@ -205,6 +231,7 @@ footer a {
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 15px #9ecaed;
+    transform: scale(1.1);
 }
 
 li img {
@@ -219,6 +246,8 @@ li:hover img {
 .section li:hover p {
     color: #34bcef;
 }
+
+
 
 .bg-model {
     width: 100%;
@@ -282,7 +311,7 @@ li:hover img {
     color: white;
     font-size: 1.2em;
     transition-duration: 0.2s;
-    margin-top: 12px;
+    margin-top: 40px;
 }
 
 
@@ -291,6 +320,22 @@ li:hover img {
     width: 100%;
     /*height: 70%;*/
     height: 9em;
+}
+
+.EngineThumbnail {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    border-radius: 20px 0 0 0;
+}
+
+.section li .EngineThumbnail {
+    transition-duration: 0.2s;
+}
+
+.section li:hover .EngineThumbnail {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
 .DetailImage {
@@ -415,8 +460,63 @@ box-shadow: none;
     color: #34bcef;
 }
 
+/*@media only screen and (min-width: 1400px) { 
+    .Apropos:first-of-type {
+
+        height: fit-content;
+    }
+
+    .OnePage {
+        height: fit-content;
+    }
+
+}*/
+
+@media only screen and (max-width: 1062px) and (min-width: 600px){ 
+    .Apropos:first-of-type {
+        width: 60vw;
+
+        height: fit-content;
+    }
+
+    .OnePage {
+        height: fit-content;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
   
+
+/*´attempt to manage la section "à propos de moi" pour dimensions cellphone mobile*/
+    .OnePage {
+        position: relative;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .OnePage h2 {
+        margin-left: 0em;
+        scale: 0.9;
+    }
+
+    .Apropos img{
+        display: none;
+
+    }
+
+    .Apropos:first-of-type {
+        width: 100vw;
+/*        position: relative;*/
+        height: auto;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .Apropos p {
+        margin-top: 6px;
+    }
+/*´attempt to manage la section "à propos de moi" pour dimensions cellphone mobile*/
 
     .DetailImage img {
         height: 25vh;
