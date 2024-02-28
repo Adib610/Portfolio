@@ -20,7 +20,10 @@ h2 {
 .OnePage {
     
     width: 100vw;
-    height: 97.6vh;
+    min-height: 97.6vh;
+    max-height: fit-content;
+
+    position: relative;
     /* background-color: cornflowerblue; */
 }
 
@@ -135,7 +138,7 @@ span {
     z-index: -1;
     position: absolute;
     width: 100vw;
-    height: 99.5%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -147,7 +150,11 @@ span {
 .Apropos:first-of-type {
     text-align: center;
     width: 40vw;
-    height: 100%;
+
+    min-height: 95vh;
+    max-height: fit-content;
+
+    position: relative;
     /*background-color: #41415c;*/
     background-color: rgba(0,0,0,0.9);
     /* background-color: #1892d3; */
