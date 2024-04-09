@@ -508,7 +508,7 @@ box-shadow: none;
     }
 
     .Apropos img{
-        display: none;
+/*        display: none;*/
 
     }
 
@@ -516,7 +516,7 @@ box-shadow: none;
         width: 100vw;
 /*        position: relative;*/
         height: auto;
-        position: absolute;
+        position: Absolute;
         bottom: 0;
     }
 
