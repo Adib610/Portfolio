@@ -32,7 +32,7 @@
     <img src="img/Adib Photo.jpg" alt="Italian Trulli" >
 
     <h2>À propos de moi</h2>
-    <p>Intégrateur/Programmeur de jeu. J'ai gradué de la Technique d'intégration Multimédia à Maisonneuve récemment et j'étudie en ce moment dans le Bac de création de jeux vidéo à l'UQAT. Je me spécialise dans la programmation de gameplay et de character controller sur Unity/C# et Unreal Engine/BluePrint. J'aimes apprendre et expérimenter. En dehors du jeu, j'ai un grand intérêt pour ce qui est Art digital, montage vidéo et animation.</p> 
+    <p>Intégrateur/Programmeur de jeu. J'ai gradué de la Technique d'intégration Multimédia à Maisonneuve récemment et j'étudie en ce moment dans le Bac de création de jeux vidéo à l'UQAT. <br> <br>Je me spécialise dans la programmation de gameplay et de character controller sur Unity/C# et Unreal Engine/BluePrint. J'aimes apprendre et expérimenter. En dehors du jeu, j'ai un grand intérêt pour ce qui est Art digital, montage vidéo et animation.</p> 
   </div>
     
   </div>
@@ -71,8 +71,9 @@
         <p>Runner Gunner</p>
         <div class="separateur"></div>
         <ul>
-          <li>UI</li>
           <li>Gameplay</li>
+          <li>Procédural</li>
+          <li>Weapon system</li>
         </ul>
     
         <div></div>
@@ -138,7 +139,7 @@
 
     <!-- Catégorie de projets -->
   <div class="categorie">
-      <h2 style="color: white;">Autres projets</h2>
+      <h2 style="color: white;">Concept Art</h2>
   </div>
       <div class="Apropos" style="padding-top: 2em;">
     <p>Je m'intéresse aussi à L'art conceptuel de personnages ce qui me rend utile durant la phase d'idéation d'un projet. Voilà quelques travaux qui reflètent mes autres aptitudes en Art 3D, storyboarding et montage vidéo. La somme de ces talents fait de moi un intégrateur qui peut assumer plusieurs rôles.</p> 
@@ -662,7 +663,7 @@
            
             <p style="font-size: 2em; font-weight: Bold;">Mes tâches</p>
             <br>
-            J'ai codé le UI dynamique du centre de contrôle, la minimap et le systême de caméras de surveillance. Pour ça, j'ai du programer un custom widget qui génère un layout du niveau indiquant la position du joueur et des différents éléments de la map puis rendre le tout interactible pour laisser le joueur sélectionner les différentes caméras du niveau.
+            Minimap Procédural interactif et Systême de caméras dynamiques. J'ai codé le UI de la tablette au centre de contrôle, la minimap qui se dessine selon le layout du niveau et le systême de caméras de surveillance. Pour ça, j'ai du programer un custom widget qui génère un layout du niveau indiquant la position du joueur et des différents éléments de la map puis rendre le tout interactible pour laisser le joueur sélectionner les différentes caméras du niveau.
              <br>
              <br>
         </div>
@@ -686,7 +687,7 @@
             Les bouttons de caméra sont affichés de la même façon, mais au lieu de construire une image, j'ai fait un custom widget qui affiche un boutton dans lequel une référence à la caméra d'une salle est appelé lorsqu'on appuis sur le boutton.
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 1</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 1 - Setup Widget</p>
              <br>
              <br>
              Je crée un Border carré qui vas contenir la minimap, les images qui seront crées pour représenter les murs seront construits dans le widget et ensuite parentées à ce Border et repositionnées à un offset approprié.
@@ -701,7 +702,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 2</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 2 - Collecte des références des murs</p>
              <br>
              <br>
              J'ajoute toutes les références de portes et de murs avec le tag "Wall" dans un array.
@@ -716,7 +717,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 3</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 3 - Calculer les extrémités du niveau</p>
              <br>
              <br>
              Je compare ensuite les positions X et Y de tous les murs pour avoir les variables des extremités du niveau.
@@ -731,7 +732,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 4</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 4 - Définir le centre et échelle du niveau</p>
              <br>
              <br>
              Les extrémités du niveau permettent alors de définir le centre et l'échelle du niveau l'aide de cette formule.
@@ -746,7 +747,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 5</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 5 - Fonction d'affichag</p>
              <br>
              <br>
              Le array contenant les références aux murs du niveau est ensuite envoyé dans une fonction qui vas traité l'affichage de chaque mur selon leurs tags.
@@ -761,11 +762,14 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 6
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 6 - Filtrer références selon Tag
              </p>
              <br>
              <br>
              À l'interieur de la fonction, une boucle foreach prend chaque référence du array et compare son tag pour l'envoyer dans une fonction qui construit une image selon la rotation, la longueur et l'Offset du mur en question. Ces paramètres dépendent du tag assigné au mur, j'aurrais tiré les murs selon leurs nom si Unreal prennait en compte le nom des objets lors d'un Build.
+                          <br>
+             <br>
+             La forme du triage manque de simplicité. Il y a trop de "BRANCH" et "IF". J'étais nouveau avec Blueprint, donc je ne connaissais pas les nodes qui auraient rendu cela plus simple, comme "Sequencer". Maintenant, au lieu d'utiliser des tags, j'aurais utilisé un tableau d'Enum qui m'aurait permis de traiter toute l'information en une ligne, sans avoir à utiliser une douzaine de "Branch".
              <br>
              <br>
         </div>
@@ -777,26 +781,35 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 7
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 7 - Attribuer paramètres selon tag
              </p>
+              <br>
+             <br>
+             Chaque référence de mur est envoyée à une fonction qui va afficher un trait sur la minimap à la dimension et à la rotation du mur.
+              <br>
+             <br>
+             Les murs du niveau varient en longueur, orientation et formes ; certains sont diagonaux et d'autres forment des coins. J'ai donc dû leur appliquer des tags pour que le blueprint puisse les distinguer. Les tags sont appliqués automatiquement par un script qui lie les noms des assets et applique un tag selon les références indiquées dans le nom.
              <br>
              <br>
-             J'envois les informations de la référence du mur à une fonction qui vas enfin l'afficher sur le widget.
+             
+              J'envoie les informations de la référence du mur à une fonction qui va enfin l'afficher sur le widget.
              <br>
              <br>
         </div>
              <div class="DetailImage">
-             <img src="img/ObscuraScreen/6DisplayWallZoomedIn.PNG" alt="Trulli" height="500vh" >
+             <img src="img/ObscuraScreen/6DisplayWallZoomedIn.PNG" alt="Trulli" height="400vh" >
              </div>
         <!------------- ------End Of step ------------------------ ------E-- ------E -->
         <!------------- ------Beginning Of step ------------------------ ------E-- ------E -->
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 8</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 8 - Breakdown les Variables</p>
              <br>
              <br>
              Voilà la façon dont les propriétés d'un mur sont passés à la fonction qui l'affichera sur le widget. Je prend la position du mur et l'ajoute à son offset, je fait de même pour sa rotation puis je multiplie sa longuer par son échelle (les assets de murs diffèrent en longuer mais leurs scale affichent toujours "1" donc je prend la taille de base de 400 et je la multiplie par 0.5 (World Scale) s'il s'agit d'un mur d'une longueur de 200 par exemple).
+             <br>
+             <br>
              J'ajoute ensuite le deuxième tag du mur, le deuxième tag indique si le mur appartient à une salle contenant une caméra (lorsqu'une camera de sécurité est sélectionnée, les murs de la salle deviennent jaune sur la minimap, pour que ça marche, j'ai fait en sorte que lorsqu'un mur est dans le collider volume d'une salle, la salle applique un tag à son nom sur ce mur, lorsque l'image de ce mur serra construite, selon son tag, on ajoutera cette image au array d'images référencés par la salle lorsqu'elle s'allume).
 
              <br>
@@ -810,7 +823,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 9</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 9 - Construire image dans nouvelles coordonnées</p>
              <br>
              <br>
              Dans la fonction qui crée les images, je construit une image dans le widget et je passe la position du mur par une formule qui adapte la position du mur dans le niveau en décalage proportionnel au Widget, ce vector de décalage en pixel est ensuite approprié au "Render Translation" de l'image.
@@ -825,7 +838,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 10</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 10 - Formule pour traduire coordonnées</p>
              <br>
              <br>
              Voilà la formule par laquel j'ai fait passé la position du mur dans le niveau pour en faire un vecteur de position proportionnel au Border de mon widget.
@@ -840,7 +853,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 11</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 11 - Élargir l'image à l'échelle du mur </p>
              <br>
              <br>
              Maintenant pour faire en sorte que la longueur de l'image soit proportionnel à la longueur du mur qu'elle représente, je la passe par une autre fontion formule qui adapte la longueur d'unité du mur (qui varie généralement de 50 à 400 unités) en longueur d'image approprié pour l'échelle de la map sur le Border. 
@@ -855,7 +868,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 12</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 12 - Formule de mise à échelle</p>
              <br>
              <br>
              Voilà à quoi ressemble la formule. Le "Scale" est la variable qu'on a définit à l'étape 4 et le multiplicateur 1240 a été trouvé en éssait erreur.
@@ -871,7 +884,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 13</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 13 - Répéter le processus pour les caméras de surveillance</p>
              <br>
              <br>
              Ensuite j'e fait la même chose que j'ai fait pour les murs mais pour les bouttons de caméra. Je détecte les salles avec des caméra dans le niveau puis dans un foreach,
@@ -887,7 +900,7 @@
         <div class="Description">
              <br>
              <br>
-             <p style="font-size: 1.5em; font-weight: Bold;">Étape 14</p>
+             <p style="font-size: 1.5em; font-weight: Bold;">Étape 14 - Créer Bouttons Widget</p>
              <br>
              <br>
              Voilà à quoi le tout ressemble, assez similaire à la création des murs, c'est juste que dans le cas des bouttons, ce sont des custom widget que j'ai créée et dans lesquels il y a un blueprint qui indique le ce que le boutton doit faire lorsqu'il est sélectionné. En somme, ils affichent le "Feed" de leurs caméra de surveillance lorsqu'ils sont sélectionnés.

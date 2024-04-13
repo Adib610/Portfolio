@@ -44,7 +44,7 @@ h2 {
 }
 
 .Apropos h2 {
-    padding-top: 15px;
+    padding-top: 25px;
     font-size: 3em;
     margin: 0 !important;
     position: relative;
@@ -62,7 +62,7 @@ h2 {
 
 .Apropos p {
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 1.3em;
     top: 5%;
     color: white;
@@ -158,6 +158,11 @@ span {
     /*background-color: #41415c;*/
     background-color: rgba(0,0,0,0.9);
     /* background-color: #1892d3; */
+}
+
+.Apropos:first-of-type p {
+    text-align: Left;
+
 }
 
 .Apropos {
