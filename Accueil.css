@@ -317,6 +317,10 @@ li:hover img {
     /* overflow: scroll; */
 }
 
+.Description li{
+    margin-bottom: 5px;
+}
+
 .section li p {
     padding: 2px;
     text-align: center;
@@ -359,6 +363,22 @@ li:hover img {
 .DetailImage img {
 
 }
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+/*        padding: 20px;*/
+    }
+    .column {
+        flex: 1;
+        max-width: 300px;
+        min-width: fit-content;
+        padding: 10px;
+    }
+
+
 
 footer {
     width: 100vw;

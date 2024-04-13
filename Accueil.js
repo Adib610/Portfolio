@@ -2,6 +2,10 @@ var fenetres = document.getElementsByTagName('span');
 // var CurrentWindow = document.getElementById('Fenetre0');
 var CurrentWindow = document.querySelector("Fenetre0");
 
+
+console.log("Current Window:", CurrentWindow);
+
+
 function FermerFenetres(){
     for (let index = 1; index < fenetres.length; index++) {
         document.querySelector('#Fenetre' + index).style.display = 'none';
@@ -642,6 +646,8 @@ function(){
     document.body.style.overflowY = "hidden";
 
     CurrentWindow = document.getElementById('Fenetre19');
+
+
     // CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
 });
 
@@ -665,12 +671,15 @@ var videosIframe = document.getElementsByTagName("iframe");
 
 window.addEventListener('mouseup', function(event){
 
+
+
     for (var i = 0; i < FenetreArray.length; i++) {
         var fenetre = document.getElementById(FenetreArray[i]);
-        if(event.target != CurrentWindow && event.target.parentNode != CurrentWindow && event.target.nodeName != 'IMG'){
+        if(event.target != CurrentWindow && event.target.parentNode != CurrentWindow && event.target.nodeName != 'IMG' && !isDescendant(event.target, CurrentWindow)){
 
             // CurrentWindow.style.display = 'none';
            
+            
 
             document.getElementById('Fenetre0').style.display = 'none';
             document.getElementById('Fenetre1').style.display = 'none';
@@ -697,9 +706,9 @@ window.addEventListener('mouseup', function(event){
                 if(x != videosIframe.length){
                     document.getElementsByTagName("iframe")[x].src = "";
                 }
-                
+
             }
-            
+
 
             document.querySelector('.bg-model').style.display = 'none';
             document.body.style.overflowY = "visible";
@@ -707,6 +716,17 @@ window.addEventListener('mouseup', function(event){
 
         }
     }
+
+    function isDescendant(child, parent) {
+    let node = child.parentNode;
+    while (node != null) {
+        if (node == parent) {
+            return true;
+        }
+        node = node.parentNode;
+    }
+    return false;
+}
 
 });
 
