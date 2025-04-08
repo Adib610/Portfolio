@@ -549,7 +549,7 @@ function(){
     document.body.style.overflowY = "hidden";
 
     CurrentWindow = document.getElementById('Fenetre16');
-    //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+    CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/stIlMzYC_c8?";
 });
 
 document.querySelector('#Detail17').addEventListener('click', 
@@ -582,6 +582,7 @@ function(){
 
     CurrentWindow = document.getElementById('Fenetre17');
     //CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/3GOtgMSJW5I?";
+    CurrentWindow.getElementsByTagName("iframe")[0].src = "https://www.youtube.com/embed/EaLlH-bAAsE";
 });
 
 document.querySelector('#Detail18').addEventListener('click', 
